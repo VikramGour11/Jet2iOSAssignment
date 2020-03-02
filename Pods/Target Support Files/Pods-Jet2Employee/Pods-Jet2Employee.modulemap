@@ -1,0 +1,6 @@
+framework module Pods_Jet2Employee {
+  umbrella header "Pods-Jet2Employee-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76235011B774ED7BD173DAA8 /* Pods_Jet2Employee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED83234D3584E9532EF20E7 /* Pods_Jet2Employee.framework */; };
+		ACBDF09F240CF19C00A9E9E2 /* EmpDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDF09E240CF19C00A9E9E2 /* EmpDetailsViewController.swift */; };
+		ACFAA2FD240BFA8D00927FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFAA2FB240BFA8D00927FB2 /* Main.storyboard */; };
+		ACFAA300240BFA8D00927FB2 /* Jet2Employee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA2FE240BFA8D00927FB2 /* Jet2Employee.xcdatamodeld */; };
+		ACFAA302240BFA8F00927FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFAA301240BFA8F00927FB2 /* Assets.xcassets */; };
+		ACFAA305240BFA8F00927FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFAA303240BFA8F00927FB2 /* LaunchScreen.storyboard */; };
+		ACFAA30E240BFB2D00927FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA30D240BFB2D00927FB2 /* AppDelegate.swift */; };
+		ACFAA313240BFB4300927FB2 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA310240BFB4300927FB2 /* ImageLoader.swift */; };
+		ACFAA314240BFB4300927FB2 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA311240BFB4300927FB2 /* NSObjectExtension.swift */; };
+		ACFAA315240BFB4300927FB2 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA312240BFB4300927FB2 /* AppConstants.swift */; };
+		ACFAA31D240BFB5400927FB2 /* EmpRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA318240BFB5400927FB2 /* EmpRepository.swift */; };
+		ACFAA31F240BFB5400927FB2 /* ItemsObjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA31B240BFB5400927FB2 /* ItemsObjectList.swift */; };
+		ACFAA320240BFB5400927FB2 /* ItemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA31C240BFB5400927FB2 /* ItemObject.swift */; };
+		ACFAA324240BFB5C00927FB2 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA322240BFB5C00927FB2 /* EndPoints.swift */; };
+		ACFAA325240BFB5C00927FB2 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA323240BFB5C00927FB2 /* BaseService.swift */; };
+		ACFAA344240BFB6B00927FB2 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA341240BFB6B00927FB2 /* BaseViewModel.swift */; };
+		ACFAA345240BFB6B00927FB2 /* EmpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA342240BFB6B00927FB2 /* EmpViewModel.swift */; };
+		ACFAA34B240CA87000927FB2 /* EmpListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA347240CA74100927FB2 /* EmpListViewController.swift */; };
+		ACFAA34E240CAABA00927FB2 /* EmpListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAA34D240CAABA00927FB2 /* EmpListCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AD062A9310D7827EFF96B19 /* Pods-Jet2Employee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jet2Employee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jet2Employee/Pods-Jet2Employee.debug.xcconfig"; sourceTree = "<group>"; };
+		4ED83234D3584E9532EF20E7 /* Pods_Jet2Employee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jet2Employee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBDF09E240CF19C00A9E9E2 /* EmpDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpDetailsViewController.swift; sourceTree = "<group>"; };
+		ACFAA2F2240BFA8D00927FB2 /* Jet2Employee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jet2Employee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFAA2FC240BFA8D00927FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACFAA2FF240BFA8D00927FB2 /* Jet2Employee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jet2Employee.xcdatamodel; sourceTree = "<group>"; };
+		ACFAA301240BFA8F00927FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACFAA304240BFA8F00927FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACFAA306240BFA8F00927FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFAA30D240BFB2D00927FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACFAA310240BFB4300927FB2 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		ACFAA311240BFB4300927FB2 /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		ACFAA312240BFB4300927FB2 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		ACFAA318240BFB5400927FB2 /* EmpRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpRepository.swift; sourceTree = "<group>"; };
+		ACFAA31B240BFB5400927FB2 /* ItemsObjectList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsObjectList.swift; sourceTree = "<group>"; };
+		ACFAA31C240BFB5400927FB2 /* ItemObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemObject.swift; sourceTree = "<group>"; };
+		ACFAA322240BFB5C00927FB2 /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		ACFAA323240BFB5C00927FB2 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		ACFAA341240BFB6B00927FB2 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		ACFAA342240BFB6B00927FB2 /* EmpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpViewModel.swift; sourceTree = "<group>"; };
+		ACFAA347240CA74100927FB2 /* EmpListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpListViewController.swift; sourceTree = "<group>"; };
+		ACFAA34D240CAABA00927FB2 /* EmpListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpListCell.swift; sourceTree = "<group>"; };
+		EAC9662EE6B9615C3A6C6E51 /* Pods-Jet2Employee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jet2Employee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jet2Employee/Pods-Jet2Employee.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFAA2EF240BFA8D00927FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76235011B774ED7BD173DAA8 /* Pods_Jet2Employee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2C8E26DD45F764C77CB080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83234D3584E9532EF20E7 /* Pods_Jet2Employee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74F8676304734F119BC09C80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AD062A9310D7827EFF96B19 /* Pods-Jet2Employee.debug.xcconfig */,
+				EAC9662EE6B9615C3A6C6E51 /* Pods-Jet2Employee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACFAA2E9240BFA8D00927FB2 = {
+			isa = PBXGroup;
+			children = (
+				ACFAA2F4240BFA8D00927FB2 /* Jet2Employee */,
+				ACFAA2F3240BFA8D00927FB2 /* Products */,
+				74F8676304734F119BC09C80 /* Pods */,
+				0A2C8E26DD45F764C77CB080 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFAA2F3240BFA8D00927FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA2F2240BFA8D00927FB2 /* Jet2Employee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFAA2F4240BFA8D00927FB2 /* Jet2Employee */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA30C240BFB2D00927FB2 /* App */,
+				ACFAA33F240BFB6B00927FB2 /* ViewModel */,
+				ACFAA316240BFB5400927FB2 /* Model */,
+				ACFAA326240BFB6300927FB2 /* View */,
+				ACFAA321240BFB5C00927FB2 /* Services */,
+				ACFAA30F240BFB4300927FB2 /* Common */,
+				ACFAA2FB240BFA8D00927FB2 /* Main.storyboard */,
+				ACFAA301240BFA8F00927FB2 /* Assets.xcassets */,
+				ACFAA303240BFA8F00927FB2 /* LaunchScreen.storyboard */,
+				ACFAA306240BFA8F00927FB2 /* Info.plist */,
+				ACFAA2FE240BFA8D00927FB2 /* Jet2Employee.xcdatamodeld */,
+			);
+			path = Jet2Employee;
+			sourceTree = "<group>";
+		};
+		ACFAA30C240BFB2D00927FB2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA30D240BFB2D00927FB2 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ACFAA30F240BFB4300927FB2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA310240BFB4300927FB2 /* ImageLoader.swift */,
+				ACFAA311240BFB4300927FB2 /* NSObjectExtension.swift */,
+				ACFAA312240BFB4300927FB2 /* AppConstants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ACFAA316240BFB5400927FB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA317240BFB5400927FB2 /* Repository */,
+				ACFAA31A240BFB5400927FB2 /* Models */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACFAA317240BFB5400927FB2 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA318240BFB5400927FB2 /* EmpRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		ACFAA31A240BFB5400927FB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA31B240BFB5400927FB2 /* ItemsObjectList.swift */,
+				ACFAA31C240BFB5400927FB2 /* ItemObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACFAA321240BFB5C00927FB2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA322240BFB5C00927FB2 /* EndPoints.swift */,
+				ACFAA323240BFB5C00927FB2 /* BaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ACFAA326240BFB6300927FB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA34C240CAAA400927FB2 /* CustomCell */,
+				ACFAA346240CA74100927FB2 /* Employee */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACFAA33F240BFB6B00927FB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA341240BFB6B00927FB2 /* BaseViewModel.swift */,
+				ACFAA342240BFB6B00927FB2 /* EmpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ACFAA346240CA74100927FB2 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA347240CA74100927FB2 /* EmpListViewController.swift */,
+				ACBDF09E240CF19C00A9E9E2 /* EmpDetailsViewController.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		ACFAA34C240CAAA400927FB2 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAA34D240CAABA00927FB2 /* EmpListCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFAA2F1240BFA8D00927FB2 /* Jet2Employee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFAA309240BFA8F00927FB2 /* Build configuration list for PBXNativeTarget "Jet2Employee" */;
+			buildPhases = (
+				AB0BFD310F5F8DE0775702F6 /* [CP] Check Pods Manifest.lock */,
+				ACFAA2EE240BFA8D00927FB2 /* Sources */,
+				ACFAA2EF240BFA8D00927FB2 /* Frameworks */,
+				ACFAA2F0240BFA8D00927FB2 /* Resources */,
+				F44869CA506B60A8514B7EC2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jet2Employee;
+			productName = Jet2Employee;
+			productReference = ACFAA2F2240BFA8D00927FB2 /* Jet2Employee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFAA2EA240BFA8D00927FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Vikram;
+				TargetAttributes = {
+					ACFAA2F1240BFA8D00927FB2 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = ACFAA2ED240BFA8D00927FB2 /* Build configuration list for PBXProject "Jet2Employee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACFAA2E9240BFA8D00927FB2;
+			productRefGroup = ACFAA2F3240BFA8D00927FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFAA2F1240BFA8D00927FB2 /* Jet2Employee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFAA2F0240BFA8D00927FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFAA305240BFA8F00927FB2 /* LaunchScreen.storyboard in Resources */,
+				ACFAA302240BFA8F00927FB2 /* Assets.xcassets in Resources */,
+				ACFAA2FD240BFA8D00927FB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB0BFD310F5F8DE0775702F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jet2Employee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F44869CA506B60A8514B7EC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Jet2Employee/Pods-Jet2Employee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jet2Employee/Pods-Jet2Employee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFAA2EE240BFA8D00927FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFAA30E240BFB2D00927FB2 /* AppDelegate.swift in Sources */,
+				ACFAA300240BFA8D00927FB2 /* Jet2Employee.xcdatamodeld in Sources */,
+				ACBDF09F240CF19C00A9E9E2 /* EmpDetailsViewController.swift in Sources */,
+				ACFAA313240BFB4300927FB2 /* ImageLoader.swift in Sources */,
+				ACFAA314240BFB4300927FB2 /* NSObjectExtension.swift in Sources */,
+				ACFAA344240BFB6B00927FB2 /* BaseViewModel.swift in Sources */,
+				ACFAA31F240BFB5400927FB2 /* ItemsObjectList.swift in Sources */,
+				ACFAA324240BFB5C00927FB2 /* EndPoints.swift in Sources */,
+				ACFAA31D240BFB5400927FB2 /* EmpRepository.swift in Sources */,
+				ACFAA34B240CA87000927FB2 /* EmpListViewController.swift in Sources */,
+				ACFAA345240BFB6B00927FB2 /* EmpViewModel.swift in Sources */,
+				ACFAA315240BFB4300927FB2 /* AppConstants.swift in Sources */,
+				ACFAA320240BFB5400927FB2 /* ItemObject.swift in Sources */,
+				ACFAA34E240CAABA00927FB2 /* EmpListCell.swift in Sources */,
+				ACFAA325240BFB5C00927FB2 /* BaseService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACFAA2FB240BFA8D00927FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFAA2FC240BFA8D00927FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACFAA303240BFA8F00927FB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFAA304240BFA8F00927FB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACFAA307240BFA8F00927FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACFAA308240BFA8F00927FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACFAA30A240BFA8F00927FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD062A9310D7827EFF96B19 /* Pods-Jet2Employee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jet2Employee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jet2Employee.Jet2Employee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACFAA30B240BFA8F00927FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC9662EE6B9615C3A6C6E51 /* Pods-Jet2Employee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jet2Employee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jet2Employee.Jet2Employee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFAA2ED240BFA8D00927FB2 /* Build configuration list for PBXProject "Jet2Employee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFAA307240BFA8F00927FB2 /* Debug */,
+				ACFAA308240BFA8F00927FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFAA309240BFA8F00927FB2 /* Build configuration list for PBXNativeTarget "Jet2Employee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFAA30A240BFA8F00927FB2 /* Debug */,
+				ACFAA30B240BFA8F00927FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACFAA2FE240BFA8D00927FB2 /* Jet2Employee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACFAA2FF240BFA8D00927FB2 /* Jet2Employee.xcdatamodel */,
+			);
+			currentVersion = ACFAA2FF240BFA8D00927FB2 /* Jet2Employee.xcdatamodel */;
+			path = Jet2Employee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACFAA2EA240BFA8D00927FB2 /* Project object */;
+}
